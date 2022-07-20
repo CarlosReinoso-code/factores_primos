@@ -1,10 +1,6 @@
 # factores_primos
 Descompone un número en factores primos, siendo el factor primo máximo 379, aunque es facilmente editable.
 
-import java.util.ArrayList;
-
-import javax.swing.JOptionPane;
-
 public class FactoresPrimos {
 
 	public static <E> void main(String[] args) {
@@ -67,5 +63,3 @@ public class FactoresPrimos {
 		}
 		
 	}
-
-}
