@@ -1,5 +1,5 @@
 # factores_primos
-Descompone un número en factores primos, siendo el factor primo máximo 379, aunque es facilmente editable.
+Descompone un número en factores primos, siendo el factor primo máximo 379, aunque es fácilmente editable.
 
 	public static <E> void main(String[] args) {
 		// TODO Auto-generated method stub
