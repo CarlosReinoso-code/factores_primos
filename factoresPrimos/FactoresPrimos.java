@@ -6,13 +6,13 @@ import java.util.ArrayList;
 public class FactoresPrimos {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
 
+        // El número de primos entre 2 y el número && factorización del número
         int x = Integer.parseInt(JOptionPane.showInputDialog("Introduzca número")), posicion = 0, divisores, exponenteP;
 
         //ARRAYLIST DE NÚMEROS PRIMOS
 
-        ArrayList<Integer> primos = new ArrayList<Integer>();
+        ArrayList<Integer> primos = new ArrayList<>();
 
         for (int i = 2; i <= 379; i++) {
 
@@ -32,8 +32,8 @@ public class FactoresPrimos {
 
         }
 
-        for (int k = 0; k < primos.size(); k++) {
-            System.out.println("Posicion [" + posicion + "] " + primos.get(k));
+        for (Integer primo : primos) {
+            System.out.println("Posicion [" + posicion + "] " + primo);
             posicion++;
         }
 
